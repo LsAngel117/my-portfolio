@@ -103,12 +103,12 @@ h3 {
   display: inline-block;
   width: 25px;
   height: 25px;
-  background: url("./download.png") no-repeat;
+  background: url("../download.png") no-repeat;
   background-size: contain;
   text-decoration: none;
 }
 .button.download:hover a {
-  background-image: url("./download2.png"); /* Cambia la imagen al poner el mouse encima */
+  background-image: url("../download2.png"); /* Cambia la imagen al poner el mouse encima */
 }
 .button.download h3 {
   font-size: 1em;
