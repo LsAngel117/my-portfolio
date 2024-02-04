@@ -21,7 +21,7 @@ a:hover {
 }
 
 body {
-  background-image: url('../background-image-dark.jpg');
+  background-image: url('./background-image-dark.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
