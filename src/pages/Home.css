@@ -1,0 +1,138 @@
+.home {
+  /**background-image: url('./background-image.jpg');*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  text-align: left;
+  margin-top: 40px;
+  text-shadow: 2px 2px 4px #000000;
+}
+h2 {
+  padding-top: -px;
+  text-align: left;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.777);
+  color: #e76f00;
+}
+h3 {
+  text-align: left;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.777);
+  color: #6db33f;
+}
+.alingButtons {
+  align-self: flex-start;
+  display: flex;
+}
+.button.linkedin {
+  align-self: flex-start;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: #00DAE8;
+  transition: background-color 0.25s;
+  overflow: hidden;
+}
+.button.linkedin:hover{
+  background-color: #e76f00; /* Cambia el color al poner el mouse encima o al tener el foco */
+  outline: none; /* Elimina el contorno predeterminado al tener el foco */
+}
+
+.button.linkedin a {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url("./linkedin2.png") no-repeat;
+  background-size: contain;
+  text-decoration: none;
+}
+.button.linkedin:hover a {
+  background-image: url("./linkedin.png"); /* Cambia la imagen al poner el mouse encima */
+}
+.button.github {
+  align-self: flex-start;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: #00DAE8;
+  transition: background-color 0.25s;
+  overflow: hidden;
+}
+.button.github:hover{
+  background-color: #6BAC3B; /* Cambia el color al poner el mouse encima o al tener el foco */
+  border-color: #6BAC3B;
+  outline: none; /* Elimina el contorno predeterminado al tener el foco */
+}
+
+.button.github a {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url("./github2.png") no-repeat;
+  background-size: contain;
+  text-decoration: none;
+}
+.button.github:hover a {
+  background-image: url("./github.png"); /* Cambia la imagen al poner el mouse encima */
+}
+.alingBtnDownload {
+  text-align: left;
+}
+.button.download {
+  align-items: center;
+  align-self: flex-start;
+  border-radius: 10px;
+  width: 195px;
+  height: 48px;
+  background-color: #00DAE8;
+  transition: background-color 0.25s;
+  overflow: hidden;
+}
+.button.download:hover{
+  border: none;
+  border-color: #00DBE9;
+  background: radial-gradient(circle at 20.18% 7.42%, #00d0ff 0, #00a4e6 25%, #1078aa 50%, #1a4f71 75%, #142c3f 100%);
+}
+
+.button.download a {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url("./download.png") no-repeat;
+  background-size: contain;
+  text-decoration: none;
+}
+.button.download:hover a {
+  background-image: url("./download2.png"); /* Cambia la imagen al poner el mouse encima */
+}
+.button.download h3 {
+  font-size: 1em;
+  margin: 0;
+  margin-top: 4px;
+  margin-left: 35px;
+  white-space: nowrap;
+  text-shadow: none;
+  color: #000000;
+}
+.button.download:hover h3 {
+  color: #ffffff;
+}
+
+.profile-container {
+  margin-left: 70px;
+  margin-top: 75px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid #00dae97c;
+}
